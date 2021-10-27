@@ -1,0 +1,242 @@
+html{
+    box-sizing:border-box;
+    font-size: 62.5%; 
+}
+    
+*,*:before, *:after{
+    box-sizing:inherit;
+}
+
+body{
+    margin: 0px;
+}
+.container{
+    width: 1260px;
+    height: 880px;
+    margin: 0px auto;
+    background-color: #edf2c5;
+    padding: 28px 160px 35px 160px;
+  }
+
+
+.header{
+    display:flex;
+}
+
+.heade__title {
+    margin: 17px 468px 8px 0;
+    font-family: Arial;
+    font-size: 4.4em;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+}
+
+.facebook {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin: 26px 0px 17px 0px;
+    object-fit: contain;
+}
+
+.instagram {
+    width: 25px;
+    height: 25px;
+    margin: 26px 0px 17px 10px;
+    object-fit: contain;
+}
+
+.line-login{
+    width: 1px;
+    height: 25px;
+    margin: 26px 0px 16px 10px;
+    background-color: #778a50;
+}
+
+.login{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+    margin: 26px 0px 16px 10px;
+    border: solid 1px #778a50;
+    padding: 4px 7px;
+    border-radius: 0.3em;
+}
+
+.join{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+    margin: 26px 0px 16px 10px;
+    border: solid 1px #778a50;
+    padding: 4px 7px;
+    border-radius: 0.3em;
+}
+
+.nav-list{
+    display: flex;
+    list-style:none;
+    width: 940px;
+    height: 44px;
+    margin: 5px 0px 20px 0px ;
+    padding: 10px 316px 11px 30px;
+    border-radius: 3px;
+    background-color: #778a50;
+  }
+
+.nav-item{
+    margin: 0 60px 0 0;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding: 0.5px;
+    margin-right: 60px;
+    
+}
+
+#pumpkin{
+    margin-top: 20px; 
+}
+
+.vgts{
+    float: left;
+    width: 445px;
+    height: 200px;
+    margin-top: 25px;
+}
+#vgt_header{
+    width: 445px;
+    height: 45px;
+    background-color: #778a50;
+    border-radius: 3px;
+}
+#vgt_text{
+    float: left;
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: #edf2c5;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#vgt1{
+    float: left;
+    width: 140px;
+    height: 140px;
+    padding: 0px;
+    margin-top: 15px; 
+}
+#vgt2{
+    float: left;
+    width: 140px;
+    height: 140px;
+    padding: 0px;
+    margin-top: 15px; 
+    margin-left: 12px; 
+}
+#vgt3{
+    float: left;
+    width: 140px;
+    height: 140px;
+    padding: 0px;
+    margin-top: 15px; 
+    margin-left: 12px;    
+}
+
+.im3_col{
+    float: right;
+    width: 445px;
+    height: 200px;
+    margin-top: 25px;
+}
+#im3_header{
+    width: 445px;
+    height: 45px;
+    background-color: #778a50;
+    border-radius: 3px;
+}
+#im3_text{
+    float: left;
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: #edf2c5;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#im3_in{
+    width: 445px;
+    height: 140px;
+    background-color: #F7FBDA;
+    margin-top: 15px;
+}
+#im3_1{
+    float: right;
+    font-size: 12px;
+    font-family: "Arial";
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 1.33;
+    color: #7D7D7D;
+}
+#im3_line{
+    display: block;
+    border: 0;
+    width: 414px;
+    border-top: 1px solid #7D7D7D;
+}
+#im3_email{
+    float: left;
+    font-size: 12px;
+    font-family: "Arial";
+    margin-left: 16px;
+    line-height: 1.83;
+    color: #7D7D7D;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.footerlast{
+    width: 1260px;
+    height: 60px;
+    margin: 0px auto;
+    padding:12.5px 479px 12.5px 480px;
+    background-color: #778a50;
+}
+
+.footer{
+    width: 301px;
+    height: 14px;
+    font-family: Arial;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+}
+
+
